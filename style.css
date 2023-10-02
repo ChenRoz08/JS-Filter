@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #a052e9;
+}
+
+.card {
+  padding: 1rem 0 1rem 1rem;
+  margin: 1rem;
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-left: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons button {
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: #a052e9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
