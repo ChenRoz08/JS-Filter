@@ -47,12 +47,3 @@ function filterRating() {
   });
   getProductTemplate(filter);
 }
-
-function remove(type) {
-  displayisplay.innerHTML = "";
-  filter = data;
-  filter = filter.filter((data) => {
-    return data.type !== undefined;
-  });
-  template(filter);
-}
